@@ -1,8 +1,11 @@
-# InvisibleStandards
-Short description and motivation.
+# How we build products
+
+These are the conventions we use to develop our products.
+
+**Includes**
+- rubocop
 
 ## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -11,14 +14,11 @@ Add this line to your application's Gemfile:
 gem 'invisible_standards'
 ```
 
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install invisible_standards
+Then include it in your local rubocop config:
+```yml
+# rubocop.yml
+inherit_gem:
+  invisible_standards: .rubocop.yml
 ```
 
 ## Contributing
