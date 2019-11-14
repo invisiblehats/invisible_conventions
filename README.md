@@ -16,9 +16,9 @@ gem 'invisible_standards'
 
 Then include it in your local rubocop config:
 ```yml
-# rubocop.yml
+# .rubocop.yml
 inherit_gem:
-  invisible_standards: .rubocop.yml
+  invisible_standards: ihv-rubocop.yml
 ```
 
 ## Contributing
