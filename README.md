@@ -1,2 +1,28 @@
-# invisible_conventions
-Our code standards, ready to use in your ruby project
+# InvisibleStandards
+Short description and motivation.
+
+## Usage
+How to use my plugin.
+
+## Installation
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'invisible_standards'
+```
+
+And then execute:
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+```bash
+$ gem install invisible_standards
+```
+
+## Contributing
+Contribution directions go here.
+
+## License
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
