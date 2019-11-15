@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.description = 'Description of InvisibleStandards.'
   spec.license     = 'MIT'
 
-  spec.metadata['allowed_push_host'] = "http://mygemserver.com"
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.files = Dir[
     '{app,config,db,lib}/**/*',
