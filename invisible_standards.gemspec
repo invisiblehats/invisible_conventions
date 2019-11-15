@@ -25,5 +25,7 @@ Gem::Specification.new do |spec|
     'README.md'
   ]
 
+  spec.add_development_dependency 'rake'
+
   spec.add_dependency 'rubocop'
 end
