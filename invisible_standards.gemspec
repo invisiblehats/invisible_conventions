@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir[
     '{app,config,db,lib}/**/*',
     'MIT-LICENSE',
+    'ihv-rubocop.yml',
     'Rakefile',
     'README.md'
   ]
