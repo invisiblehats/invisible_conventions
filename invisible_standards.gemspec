@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'rake'
 
-  spec.add_dependency 'rubocop'
   spec.add_dependency 'github_changelog_generator'
+  spec.add_dependency 'rubocop', '>= 0.70'
 end
