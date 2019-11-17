@@ -1,3 +1,12 @@
 inherit_from:
   - .rubocop_todo.yml
   - ihv-rubocop.yml
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  Exclude:
+    - 'spec/dummy/**/*'
+
+Style/Documentation:
+  Exclude:
+    - 'spec/dummy/**/*'
