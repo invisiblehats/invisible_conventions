@@ -22,7 +22,6 @@ Gem::Specification.new do |spec|
     '{app,config,db,lib}/**/*',
     'MIT-LICENSE',
     'ihv-rubocop.yml',
-    'Rakefile',
     'README.md'
   ]
 
