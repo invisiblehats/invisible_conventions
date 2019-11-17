@@ -14,7 +14,7 @@ class InvisibleStandards::Engine < ::Rails::Engine
           config.user = user
           config.project = project
           config.future_release = ENV['CHANGELOG_VERSION']
-          config.token = ENV['CHANGELOG_GITHUB_TOKEN'] || ENV['GITHUB_TOKEN']
+          config.token = ENV['CHANGELOG_TOKEN'] || ENV['GITHUB_TOKEN']
         end
       end
     end
