@@ -10,6 +10,7 @@ We are also adding a changelog generator. See readme for usage
 
 **Merged pull requests:**
 
+- Add github changelog generator [\#9](https://github.com/invisiblehats/invisible_standards/pull/9) ([mklemme](https://github.com/mklemme))
 - Add ihv-rubocop to list of included files [\#6](https://github.com/invisiblehats/invisible_standards/pull/6) ([mklemme](https://github.com/mklemme))
 
 ## [v0.1.0](https://github.com/invisiblehats/invisible_standards/tree/v0.1.0) (2019-11-15)
