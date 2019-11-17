@@ -19,14 +19,20 @@ end
 require 'bundler/gem_tasks'
 
 require 'github_changelog_generator/task'
+require_relative 'lib/invisible_standards/project_meta'
 
-desc 'Create a new changelog based on the current version'
-GitHubChangelogGenerator::RakeTask.new :changelog do |config|
-  user, project = InvisibleStandards::REPO.split('/')
-  config.user = user
-  config.project = project
-  config.future_release = InvisibleStandards::VERSION
-  config.token = ENV['CHANGELOG_GITHUB_TOKEN']
+namespace :invisible_toolkit do
+  namespace :changelog do
+    desc 'Create a new changelog based on the current version'
+    GitHubChangelogGenerator::RakeTask.new :generate do |config|
+      user, project = InvisibleStandards::REPO.split('/')
+
+      config.user = user
+      config.project = project
+      config.future_release = InvisibleStandards::VERSION
+      config.token = ENV['CHANGELOG_GITHUB_TOKEN'] || ENV['GITHUB_TOKEN']
+    end
+  end
 end
 
 require 'rake/testtask'
