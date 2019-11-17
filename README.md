@@ -21,7 +21,22 @@ You can also install this globally by running this command in your terminal
 
 ```bash
 # on command line
-gem install invisible_standards
+$ gem install invisible_standards
+```
+
+### Changelog
+
+You can generate a CHANGELOG.md file with changes including an unreleased version
+
+These must be present
+```bash
+CHANGELOG_GITHUB_TOKEN=tok_123 # also accepts GITHUB_TOKEN
+CHANGELOG_VERSION=v0.1.1
+CHANGELOG_REPO=invisiblehats/invisible_standards
+```
+
+```bash
+$ bundle exec rake invisible_toolkit:changelog:generate
 ```
 
 ### Rubocop
