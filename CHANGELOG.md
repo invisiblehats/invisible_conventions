@@ -8,9 +8,12 @@ The packaged gem did not include `ihv-rubocop.yml`. This version now includes it
 
 We are also adding a changelog generator. See readme for usage
 
-**Merged pull requests:**
+**Implemented enhancements:**
 
 - Add github changelog generator [\#9](https://github.com/invisiblehats/invisible_standards/pull/9) ([mklemme](https://github.com/mklemme))
+
+**Merged pull requests:**
+
 - Add ihv-rubocop to list of included files [\#6](https://github.com/invisiblehats/invisible_standards/pull/6) ([mklemme](https://github.com/mklemme))
 
 ## [v0.1.0](https://github.com/invisiblehats/invisible_standards/tree/v0.1.0) (2019-11-15)
