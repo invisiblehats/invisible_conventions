@@ -26,9 +26,8 @@ Gem::Specification.new do |spec|
     'README.md'
   ]
 
-  spec.add_development_dependency 'rake'
-
-  spec.add_dependency 'github_changelog_generator'
+  spec.add_development_dependency 'rake', '>= 12'
+  spec.add_dependency 'github_changelog_generator', '~> 1.15.0'
   spec.add_dependency 'rails', '>= 4.2'
   spec.add_dependency 'rubocop', '>= 0.70'
 end
