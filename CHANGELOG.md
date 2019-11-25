@@ -1,12 +1,13 @@
 # Changelog
 
-## [0.1.1](https://github.com/invisiblehats/invisible_standards/tree/0.1.1) (2019-11-16)
+## [v0.1.1](https://github.com/invisiblehats/invisible_standards/tree/v0.1.1) (2019-11-17)
 
-[Full Changelog](https://github.com/invisiblehats/invisible_standards/compare/v0.1.0...0.1.1)
+[Full Changelog](https://github.com/invisiblehats/invisible_standards/compare/v0.1.0...v0.1.1)
 
 The packaged gem did not include `ihv-rubocop.yml`. This version now includes it in the gemspec.
 
 We are also adding a changelog generator. See readme for usage
+Prepping for new version release
 
 **Implemented enhancements:**
 
