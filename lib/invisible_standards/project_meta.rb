@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module InvisibleStandards
-  VERSION = '0.1.1'
+  VERSION = '0.1.2'
   NAME = 'invisible_standards'
   REPO = 'invisiblehats/invisible_standards'
   AUTHORS = ['Myk Klemme'].freeze
