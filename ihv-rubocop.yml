@@ -2,6 +2,7 @@ AllCops:
   TargetRubyVersion: 2.6
   Exclude:
     - 'db/schema.rb'
+    - 'spec/dummy'
     - 'vendor/**/*'
     - 'bin/**/*'
     - 'node_modules/**/*'
